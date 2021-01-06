@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 500px;
+}
+p{
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+}
+
+
+#top-nav ul{
+    list-style-type:none;
+    margin: auto;
+    padding: 0;
+    background-color:white;
+    height: 50px;
+    width:90%;
+}
+#top-nav li{
+    float: right;
+}
+#top-nav a{
+    display: block;
+    padding: 15px 20px;
+    color:black;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+#top-nav a:hover{
+    color:tomato;
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 0% 0% 2% 5%;
+    padding:2% 2%;
+    height:400px;
+}
+.half-width h1{
+    
+   font-size: 50px;
+}
+
+.half-width p{
+    margin-top: 5%;
+    padding-right: 40%;
+
+}
+.half-width img{
+    width: 70%;
+    padding-right: 10%;
+}
+.text-highlight{
+    color: #3a4d99;
+}
+.name-highlight{
+    color: #fa725c;
+}
+.button{
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+.about-section{
+    width: auto;
+}
+.about-section h2{
+    font-size: 40px;
+}
+
+
+.work-section{
+    background-color: #fff7e8;
+    padding:3%;
+    margin:2% 0%;
+}
+.work-section h2{
+    font-size: 40px;
+    text-align: center;
+
+}
+.work-section h3{
+    font-size: 20px;
+}
+.work-area{
+    margin-left: 6.5% ;
+}
+.box-area{
+    width:25%;
+    height:300px;
+    padding: 2%;
+    margin:5% 0% 5% 2%;
+    float: left;
+    line-height: 40px;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(214, 214, 214);
+    border-radius: 8px;
+    
+}
+.box-area img{
+    width: 100%;
+}
+
+
+.inquiry-section{
+    padding: 5% 10%;
+    height: auto;
+}
+.chat{
+    background-image: url("images/workinquiry.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0% auto;
+    width: 70%;
+    height: 250px;
+}
+.chat h1{
+    float: left;
+    margin-top: 10%;
+    margin-left:50px;
+    color:white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.chat a{
+    float: right;
+    margin-top: 10%;
+    margin-right:50px;
+}
+
+
+.bottom-section{
+    text-align: center;
+    height: auto;
+    padding: 2% 0%;
+}
+.contact h4{
+    color: gray;
+}
+.contact img{
+    width: 3%;
+    margin: 1%;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    height:30px;
+    background-color: rgb(231, 230, 230);
+    padding: .2% 0%;
+}
+
